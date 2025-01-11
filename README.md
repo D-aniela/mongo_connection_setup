@@ -81,10 +81,13 @@ Inicia el servidor en producción:
    devtree/
 ├── dist/                   # Archivos compilados (generado al ejecutar `npm run build`)
 ├── src/                    # Código fuente
+|   ├──config
+|       ├──db.ts
 │   ├── index.ts            # Punto de entrada principal
 │   ├── router.ts           # Rutas del servidor
 │   ├── server.ts           # Configuración del servidor
 ├── .env                    # Variables de entorno (no se incluye en el repositorio)
+├── package-lock.json       
 ├── package.json            # Configuración del proyecto y dependencias
 ├── tsconfig.json           # Configuración de TypeScript
 ├── README.md               # Documentación del proyecto
